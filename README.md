@@ -5,4 +5,7 @@ Enterprise Software class
 Matt DiPietro
 dipietro20@gmail.com
 
+Emmeline Tsen
+emmelinetsen@gmail.com
+
 
