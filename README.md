@@ -1,7 +1,7 @@
-# RJEMS
-Enterprise Software class
+# Test
+Test
 
-# Group info:
+# Info:
 Matt DiPietro
 dipietro20@gmail.com
 
