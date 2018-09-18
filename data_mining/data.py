@@ -10,3 +10,4 @@ f = pd.read_csv(data_file)
 col = list(f.head(0))
 
 f2 = pd.concat([pd.DataFrame([i], columns=['features']) for i in col])
+print 'Finished'
