@@ -2,10 +2,16 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import scipy.cluster.hierarchy as shc
 from sklearn.cluster import AgglomerativeClustering
+from scipy.spatial import distance_matrix
+import numpy as np
 
 
 data = pd.read_csv('cluster.csv')
 print data
+datnp = np.column_stack([data['x'],data['y']])
+distmat = distance_matrix(datnp,datnp)
+df = pd.DataFrame(distmat)
+df.to_csv("/Users/mattsmacbook/Desktop/cluster_dist_matx.csv")
 plt.figure(figsize=(11, 8))
 x=0
 type = ['ward','average','complete']
