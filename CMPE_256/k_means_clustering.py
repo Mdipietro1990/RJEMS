@@ -21,7 +21,7 @@ plt.scatter(spendIdx,incomeIdx,c=shopper,cmap=matplotlib.colors.ListedColormap(c
 plt.show()
 
 # KMeans algorithm
-K = 4
+K = 2
 kmeans_model = KMeans(n_clusters=K).fit(formData)
 
 plt.plot()

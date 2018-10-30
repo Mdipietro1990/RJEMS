@@ -12,7 +12,7 @@ datnp = np.column_stack([data['x'],data['y']])
 distmat = distance_matrix(datnp,datnp)
 df = pd.DataFrame(distmat)
 df.to_csv("/Users/mattsmacbook/Desktop/cluster_dist_matx.csv")
-plt.figure(figsize=(11, 8))
+plt.figure(figsize=(11, 8)) 
 x=0
 type = ['ward','average','complete']
 name = ['single-link','average-link','complete-link']
